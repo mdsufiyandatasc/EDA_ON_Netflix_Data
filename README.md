@@ -1,135 +1,115 @@
-📊 Netflix Customer Churn Analysis – Exploratory Data Analysis (EDA)
-📌 Project Overview
+📊 Netflix Customer Churn Analysis (EDA)
+🔹 Project Summary
 
-Customer churn is a critical challenge for subscription-based platforms like Netflix.
-This project focuses on Exploratory Data Analysis (EDA) to understand user behavior, identify churn patterns, and extract actionable business insights from Netflix customer data.
+Performed Exploratory Data Analysis (EDA) on Netflix customer data to identify key drivers of churn, understand user behavior, and extract actionable business insights to improve customer retention.
 
-The analysis helps answer key questions such as:
+This project demonstrates strong skills in Python, data analysis, visualization, and business thinking.
 
-Why do users churn?
+🔹 Objective
 
-Which users are more loyal?
+Identify factors influencing customer churn
 
-What factors influence engagement and churn?
+Analyze user engagement patterns
 
-📂 Dataset Description
+Segment customers into high-risk and low-risk churn groups
 
-The dataset contains anonymized Netflix customer information, including:
+Provide data-driven recommendations to reduce churn
 
-Demographics: Age
+🔹 Dataset Overview
 
-Usage Behavior: Watch hours, last login days
+The dataset includes customer-level information such as:
 
-Subscription Details: Subscription type, monthly fee
+Age
 
-Preferences: Favorite genre, device used
+Watch hours
 
-Account Details: Number of profiles, payment method
-
-Target Variable: churn (0 = Active, 1 = Churned)
-
-🛠️ Tools & Technologies Used
-
-Python
-
-Pandas – Data manipulation
-
-NumPy – Numerical operations
-
-Matplotlib & Seaborn – Data visualization
-
-Jupyter Notebook
-
-🔍 Key EDA Steps Performed
-1️⃣ Data Understanding & Cleaning
-
-Checked dataset shape and structure
-
-Handled missing values and duplicates
-
-Verified data types of all columns
-
-2️⃣ Univariate Analysis
-
-Distribution of age, watch hours, last login days
-
-Count plots for subscription type, device, and genres
-
-3️⃣ Bivariate & Multivariate Analysis
-
-Churn analysis by:
-
-Device type
+Days since last login
 
 Subscription type
 
+Device used
+
 Favorite genre
 
-Payment method
+Number of profiles
 
-Relationship between:
+Monthly fee
 
-Watch hours and churn
+Churn indicator (Target Variable)
 
-Last login days and churn
+🔹 Tools & Technologies
 
-Subscription type and engagement
+Python
 
-4️⃣ Correlation Analysis
+Pandas & NumPy
 
-Identified features strongly correlated with churn
+Matplotlib & Seaborn
 
-Visualized correlations using heatmaps
+Jupyter Notebook
 
-📈 Key Insights & Findings
+🔹 Key Analysis Performed
 
-⏱ Last login days is one of the strongest indicators of churn
+Data cleaning and preprocessing
 
-📉 Users with low watch hours are more likely to churn
+Univariate & bivariate analysis
 
-📱 Mobile users churn more compared to TV users
+Correlation analysis with churn
 
-💎 Premium subscribers show higher engagement and lower churn
+Device, genre, and subscription-based churn comparison
 
-🎭 Drama lovers are more loyal compared to other genre preferences
+Inactivity threshold analysis
 
-🚨 Churn rate spikes significantly after 30+ days of inactivity
+Customer churn risk segmentation
 
-🎯 Business Recommendations
+🔹 Key Insights
 
-Based on the analysis, Netflix can reduce churn by:
+⏱ Users inactive for 30+ days show a sharp increase in churn
 
-Sending re-engagement notifications before 30 days of inactivity
+📉 Lower watch hours strongly correlate with higher churn
 
-Improving mobile viewing experience
+📱 Mobile users churn more than TV users
 
-Offering discounts or trials to high-risk users
+💎 Premium subscribers are more engaged and loyal
 
-Promoting content aligned with users’ favorite genres
+🎭 Drama genre users show lower churn rates
 
-Encouraging plan upgrades for highly engaged users
+🔹 Business Impact & Recommendations
 
-📁 Project Structure
-├── EDA_ON_Netflix_Data.ipynb
-├── netflix_customer_churn.csv
-├── README.md
+Implement early re-engagement strategies before 30 days of inactivity
 
-🚀 Future Work
+Improve mobile streaming experience
 
-Build churn prediction models (Logistic Regression, Random Forest)
+Offer targeted discounts to high-risk users
 
-Perform feature importance analysis
+Encourage plan upgrades for highly engaged customers
 
-Create Power BI / Tableau dashboards
+Use churn risk segmentation for personalized retention campaigns
 
-Deploy churn insights into a recommendation system
+🔹 Project Files
+📁 Netflix-Churn-EDA
+ ├── EDA_ON_Netflix_Data.ipynb
+ ├── netflix_customer_churn.csv
+ └── README.md
+
+🔹 Skills Demonstrated
+
+Exploratory Data Analysis (EDA)
+
+Business Insight Generation
+
+Customer Segmentation
+
+Churn Analysis
+
+Data Visualization
+
+Analytical Storytelling
 
 👤 Author
 
 Mohammad Sufiyan
-Aspiring Data Analyst | Python | SQL | Data Visualization
+Aspiring Data Analyst | Python | SQL | Power BI
 
-⭐ Conclusion
+⭐ Why This Project Matters
 
-This EDA provides a strong foundation for understanding Netflix customer behavior and churn drivers.
-The insights derived can directly support data-driven decision making and customer retention strategies.
+This project showcases the ability to translate raw data into business insights, a core requirement for data analyst roles.
